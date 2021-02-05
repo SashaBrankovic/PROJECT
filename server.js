@@ -28,6 +28,5 @@ app.use(session({
    }
 }));
 app.use("/",routes);
-app.listen(2000,()=>{
-   console.log('Starting...');
+app.listen(80,()=>{
 })
